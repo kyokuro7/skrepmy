@@ -1,0 +1,13 @@
+{
+  "name": "scrape-loader-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "telegraf": "^4.16.3"
+  },
+  "engines": { "node": ">=20.6" }
+}
